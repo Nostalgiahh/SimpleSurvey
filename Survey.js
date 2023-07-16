@@ -183,6 +183,6 @@ function remove(el) {
  
          });
 
-         // yay i did it, it's working i guess...
+         // yay i did it, it's working i guess..
 
        
