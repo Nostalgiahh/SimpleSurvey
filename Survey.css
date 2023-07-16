@@ -1,0 +1,44 @@
+body {
+    background: #e09f3e;
+}
+
+.heading {
+    background: #fff3b0;
+}
+
+
+.box {
+    background: #9a031e;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+
+
+}
+
+.assortment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation-name: fade;
+    
+}
+
+.options1 {
+    width: 90%;
+    width: 50px;
+    display: none;
+}
+
+.options2 {
+    width: 90%;
+    width: 50px;
+    display: none;
+}
+
+.options3 {
+    width: 90%;
+    width: 50px;
+    display: none;
+}
+
