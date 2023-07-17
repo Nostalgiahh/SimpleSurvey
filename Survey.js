@@ -9,19 +9,10 @@ const Outcome2 = "here, have a hug";
 const Outcome3 = "ksy";
 
 
-
-
-//removes stuff
-
-function remove(el) {
-    var element = el;
-    element.remove();
-}
-
 //intro
 
     document.getElementById("begin").addEventListener("click", function () {
-        let pass = document.getElementById("opt 1");
+        let pass = document.getElementById("opt1");
         let fuckoff = document.getElementById("begin");
     
         fuckoff.style.display = "none";
@@ -33,7 +24,7 @@ function remove(el) {
     
         document.getElementById("10pt").addEventListener("click", function() {
 
-            let finish1 = document.getElementById("opt 1");
+            let finish1 = document.getElementById("opt1");
             finish1.style.display = "none";
          
 
@@ -46,7 +37,7 @@ function remove(el) {
 
         document.getElementById("20pt").addEventListener("click", function() {
 
-            let finish1 = document.getElementById("opt 1");
+            let finish1 = document.getElementById("opt1");
             finish1.style.display = "none";
          
 
@@ -59,7 +50,7 @@ function remove(el) {
 
         document.getElementById("30pt").addEventListener("click", function() {
 
-            let finish1 = document.getElementById("opt 1");
+            let finish1 = document.getElementById("opt1");
             finish1.style.display = "none";
          
 
@@ -132,9 +123,9 @@ function remove(el) {
             if (score <= 40) {
                 document.getElementById("result").innerHTML = Outcome1;
            }    else if (score <= 70) {
-                document.querySelector("result").innerHTML = Outcome2;
+                document.getElementById("result").innerHTML = Outcome2;
            }    else if (score >= 70) {
-              document.querySelector("result").innerHTML = Outcome3;
+              document.getElementById("result").innerHTML = Outcome3;
            };
 
         });
@@ -154,9 +145,9 @@ function remove(el) {
              if (score <= 40) {
                  document.getElementById("result").innerHTML = Outcome1;
             }    else if (score <= 70) {
-                 document.querySelector("result").innerHTML = Outcome2;
+                 document.getElementById("result").innerHTML = Outcome2;
             }    else if (score > 70) {
-               document.querySelector("result").innerHTML = Outcome3;
+               document.getElementById("result").innerHTML = Outcome3;
             };
  
          });
@@ -176,9 +167,9 @@ function remove(el) {
              if (score <= 40) {
                  document.getElementById("result").innerHTML = Outcome1;
             }    else if (score <= 70) {
-                 document.querySelector("result").innerHTML = Outcome2;
+                 document.getElementById("result").innerHTML = Outcome2;
             }    else if (score > 70) {
-               document.querySelector("result").innerHTML = Outcome3;
+               document.getElementById("result").innerHTML = Outcome3;
             };
  
          });

@@ -1,20 +1,35 @@
 body {
-    background: #e09f3e;
+    background: lightgray;
     margin: 0;
 }
 
 .heading {
-    background: #fff3b0;
+    background: #d45b12;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    font-size: 23px;
+    padding: 7px;
+    color: white;
 }
 
+#Lnk1 {
+  text-decoration: none;
+  color: white;
+}
+
+#Lnk2 {
+  text-decoration: none;
+  color: black;
+}
+#Lnk2:hover {
+color: orange;}
 
 .box {
     background: #9a031e;
-    width: 70%;
+    width: 35%;
     height: 50%;
     margin: auto;
-
-
 }
 
 .assortment {
@@ -24,6 +39,18 @@ body {
     animation-name: fade;
     
 }
+
+.ico {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1em;
+  
+}
+
+h2 {
+text-align: center;}
 
 .options1 {
     width: 90%;
@@ -42,4 +69,200 @@ body {
     width: 50px;
     display: none;
 }
+
+#title {
+ color: lightgray;
+}
+
+.aligning {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.start {
+  width: 40%;
+ 
+}
+
+.one, .two, .three {
+  width: 100%;
+  background: lightblue;
+  
+}
+
+ .gg-home {
+ background:
+ linear-gradient(to left,
+ currentColor 5px,transparent 0)
+ no-repeat 0 bottom/4px 2px,
+ linear-gradient(to left,
+ currentColor 5px,transparent 0)
+ no-repeat right bottom/4px 2px;
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 18px;
+ height: 14px;
+ border: 2px solid;
+ border-top: 0;
+ border-bottom: 0;
+ border-top-right-radius: 3px;
+ border-top-left-radius: 3px;
+ border-bottom-right-radius: 0;
+ border-bottom-left-radius: 0;
+ margin-bottom: -2px;
+   display: inline-block;
+ }
+
+ .gg-home::after,
+ .gg-home::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute
+ }
+
+ .gg-home::before {
+ border-top: 2px solid;
+ border-left: 2px solid;
+ border-top-left-radius: 4px;
+ transform: rotate(45deg);
+ top: -5px;
+ border-radius: 3px;
+ width: 14px;
+ height: 14px;
+ left: 0
+ }
+
+ .gg-home::after {
+ width: 8px;
+ height: 10px;
+ border: 2px solid;
+ border-radius: 100px;
+ border-bottom-left-radius: 0;
+ border-bottom-right-radius: 0;
+ border-bottom: 0;
+ left: 3px;
+ bottom: 0
+ } 
+
+ @keyframes gg-doc {
+ 0% { left: -16px }
+ 60%,to { left: 0 }
+}
+
+.gg-loadbar-doc {
+ display: block;
+ position: relative;
+ box-sizing: border-box;
+ transform: scale(var(--ggs,1));
+ border: 2px solid transparent;
+ box-shadow: 0 0 0 2px;
+ border-radius: 1px;
+ width: 12px;
+ height: 14px;
+ overflow: hidden;
+ list-style-position: outside;
+}
+
+.gg-loadbar-doc::after,
+.gg-loadbar-doc::before {
+ content: "";
+ display: block;
+ position: absolute;
+ box-sizing: border-box;
+ height: 2px;
+ background: currentColor;
+ animation: gg-doc 1s linear infinite alternate
+}
+
+.gg-loadbar-doc::before {
+ width: 14px;
+ box-shadow: -4px 4px 0
+}
+
+.gg-loadbar-doc::after {
+ width: 5px;
+ top: 8px
+} 
+
+ .gg-dollar {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 2px;
+ height: 20px;
+ background: currentColor;
+   display: inline-block;
+}
+
+.gg-dollar::after,
+.gg-dollar::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute;
+ width: 10px;
+ height: 8px;
+ border: 2px solid
+}
+
+.gg-dollar::before {
+ border-right: 0;
+ border-top-left-radius: 100px;
+ border-bottom-left-radius: 100px;
+ top: 3px;
+ left: -6px;
+ box-shadow: 4px -2px 0 -2px
+}
+ @keyframes gg-doc {
+ 0% { left: -16px }
+ 60%,to { left: 0 }
+}
+
+.gg-loadbar-doc {
+ display: block;
+ position: relative;
+ box-sizing: border-box;
+ transform: scale(var(--ggs,1));
+ border: 2px solid transparent;
+ box-shadow: 0 0 0 2px;
+ border-radius: 1px;
+ width: 12px;
+ height: 14px;
+ overflow: hidden;
+   display: inline-block;
+}
+
+.gg-loadbar-doc::after,
+.gg-loadbar-doc::before {
+ content: "";
+ display: block;
+ position: absolute;
+ box-sizing: border-box;
+ height: 2px;
+ background: currentColor;
+ animation: gg-doc 1s linear infinite alternate
+}
+
+.gg-loadbar-doc::before {
+ width: 14px;
+ box-shadow: -4px 4px 0
+}
+
+.gg-loadbar-doc::after {
+ width: 5px;
+ top: 8px
+} 
+.gg-dollar::after {
+ border-left: 0;
+ border-top-right-radius: 100px;
+ border-bottom-right-radius: 100px;
+ bottom: 3px;
+ right: -6px;
+ box-shadow: -4px 2px 0 -2px
+} 
 
